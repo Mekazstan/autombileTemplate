@@ -15,6 +15,7 @@ export default function FirstTimeBuyer() {
           src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=1600&q=80" // Dashboard interior
           alt="Car Interior"
           fill
+          sizes="100vw"
           className="object-cover"
         />
         {/* Shadow gradient for heavy contrast */}

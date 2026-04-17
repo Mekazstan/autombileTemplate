@@ -16,6 +16,7 @@ export default function Hero() {
           src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1600&q=80"
           alt="Luxury Dealership"
           fill
+          sizes="100vw"
           className="object-cover object-center"
           priority
         />

@@ -55,9 +55,9 @@ export default function Footer() {
         <div>
           <h4 className="text-white font-bold tracking-widest uppercase text-[11px] mb-6">Location</h4>
           <ul className="space-y-4 text-[10px] font-semibold">
-            <li>4478 NW 11 Ave Doral, FL 33166</li>
-            <li>4582 W 12 Ave Hialeah, FL 33012</li>
-            <li>7701 NW 143 St Hialeah Gardens, FL 33016</li>
+            <li>No. 15 Aminu Kano Crescent, Wuse 2, Abuja 900288</li>
+            <li>Block C, Garki International Market, Garki, Abuja</li>
+            <li>Plot 724, Central Business District, Abuja 900103</li>
           </ul>
 
           <h4 className="text-white font-bold tracking-widest uppercase text-[11px] mt-8 mb-4">Hours</h4>

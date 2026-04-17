@@ -4,9 +4,9 @@ import { useRef } from "react";
 import Image from "next/image";
 
 const SERVICES = [
-  { img: "https://images.unsplash.com/photo-1632733711679-529326f6db12?w=800&q=80", title: "BATTERY CHANGE", desc: "Dead or alive, we offer battery replacement on your vehicle." },
-  { img: "https://images.unsplash.com/photo-1504222490345-c075b6008014?w=800&q=80", title: "BRAKES CHANGE", desc: "Keep your brakes healthy and stable with full-scale brake service from us." },
-  { img: "https://images.unsplash.com/photo-1616616053860-03a118831e50?w=800&q=80", title: "OIL CHANGE", desc: "In need of an oil change? Bring it to us for fast and on-hands service." },
+  { img: "/images/batteryChange.avif", title: "BATTERY CHANGE", desc: "Dead or alive, we offer battery replacement on your vehicle." },
+  { img: "/images/brakeChange.avif", title: "BRAKES CHANGE", desc: "Keep your brakes healthy and stable with full-scale brake service from us." },
+  { img: "/images/oilChange.avif", title: "OIL CHANGE", desc: "In need of an oil change? Bring it to us for fast and on-hands service." },
 ];
 
 export default function ServicesOffered() {
@@ -45,6 +45,7 @@ export default function ServicesOffered() {
                   src={service.img} 
                   alt={service.title} 
                   fill 
+                  sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover group-hover:scale-105 transition-transform duration-500" 
                 />
               </div>

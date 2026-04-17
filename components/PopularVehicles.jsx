@@ -35,6 +35,8 @@ export default function PopularVehicles() {
               src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80" 
               alt="Mercedes Benz" 
               fill 
+              sizes="(max-width: 768px) 100vw, 33vw"
+              priority
               className="object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out" 
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-80 group-hover:opacity-100 transition-opacity duration-300" />
@@ -55,9 +57,10 @@ export default function PopularVehicles() {
               className="relative flex-1 group overflow-hidden cursor-pointer"
             >
               <Image 
-                src="https://images.unsplash.com/photo-1555353540-64fd1b622830?w=800&q=80" 
+                src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80" 
                 alt="Chevrolet" // Yellow car
                 fill 
+                sizes="(max-width: 768px) 100vw, 33vw"
                 className="object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out" 
               />
               <div className="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-black/90 to-transparent">
@@ -75,6 +78,7 @@ export default function PopularVehicles() {
                 src="https://images.unsplash.com/photo-1556189250-72ba954cfc2b?w=800&q=80" 
                 alt="BMW" // Dark car
                 fill 
+                sizes="(max-width: 768px) 100vw, 33vw"
                 className="object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out" 
               />
               <div className="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-black/90 to-transparent">
@@ -91,9 +95,10 @@ export default function PopularVehicles() {
             className="relative h-72 lg:h-full group overflow-hidden cursor-pointer"
           >
             <Image 
-              src="https://images.unsplash.com/photo-1559828551-5ef215e4a87b?w=800&q=80" 
+              src="https://images.unsplash.com/photo-1542362567-b07e54358753?w=800&q=80" 
               alt="Hyundai" // Red car
               fill 
+              sizes="(max-width: 768px) 100vw, 33vw"
               className="object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out" 
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-80 group-hover:opacity-100 transition-opacity duration-300" />

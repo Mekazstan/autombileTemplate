@@ -28,6 +28,7 @@ export default function SpecialOffers() {
               src="https://images.unsplash.com/photo-1542282088-fe8426682b8f?w=600&q=80"
               alt="Red Car Concept"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover sm:object-contain drop-shadow-[0_10px_20px_rgba(0,0,0,0.8)]"
             />
           </motion.div>
@@ -55,6 +56,7 @@ export default function SpecialOffers() {
               src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?w=600&q=80"
               alt="Blue Car Concept"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover sm:object-contain drop-shadow-[0_10px_20px_rgba(0,0,0,0.8)]"
             />
           </motion.div>
